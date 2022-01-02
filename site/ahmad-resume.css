@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1a1b1b;
+    display :block;
+}
+.container{
+    width: 60%;
+    transform: translate(35%, 10%) ;
+    background-color: rgb(243, 232, 232);  
+  
+}
+.container .upper{
+    display: flex;
+    background-color: rgba(17, 17, 17, 0.5);
+    height: 200px;
+}
+
+.container .section .left{
+  
+    padding: 35px;
+    text-align: center;
+    width: 30%;
+    background-color: rgb(247, 245, 242);
+    
+}
+.container .section{
+   height:800px;
+    display: flex;
+
+}
+.container .section .right{
+
+    width:70%;
+    background-color:  rgba(17, 17, 17, 0.2);
+}
+
+
+.container .upper .image img{
+    width: 175px;   
+    border-radius: 50%;
+}
+.container .upper .image {
+    height:200px;
+    width:200px;
+      padding: 10px 40px 50px 100px;
+      
+}
+
+.container .upper #name{
+    font-size: 20px;
+    color: beige;
+    padding: 50px 0 0 80px; 
+}
+
+
+
+.container .section .left .profile h2{
+    /* padding-bottom: ; */
+    font-size: 25px;
+    font-family:Georgia, serif;
+    color: rgb(77, 75, 75,0.8);
+}
+.container .section .left .profile u{
+    color:rgb(77,75,75,0.8) ;
+}
+
+.container .section .left .personal{
+    padding: 20px;
+    font-size:larger;
+    color: rgb(77, 75, 75,0.8);
+}
+.container .section .contact{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family:Georgia, serif;
+    color: rgb(77, 75, 75, 0.8);
+}
+.container .section .icon{
+    text-align: left;
+    line-height:25px;
+    padding: 10px 29px;
+}
+.fa{
+    background-repeat: none;
+    color: rgb(77, 75, 75, 0.8);
+}
+.container .section .skill_box{
+   padding: 20px;
+   color:  rgb(77, 75, 75, 0.8);
+   text-align:left;
+    /* height: 20px; */
+}
+.container .section .skill .C{
+    height:10px;
+    width:75%;
+    background-color:rgb(77, 75, 75, 0.8) ;
+}
+.container .section .skill_box .skill .JAVA{
+   
+    height: 10px;
+    width: 30%;
+    background-color:rgb(77, 75, 75, 0.8) ;
+
+}
+.container .section .skill .PYTHON{
+   
+    height: 10px;
+    width: 20%;
+    background-color:rgb(77, 75, 75, 0.8) ;
+
+}
+.container .section .skill .HTML{
+   
+    height: 10px;
+    width: 75%;
+    background-color:rgb(77, 75, 75, 0.8) ;
+
+}
+.container .section .skill .CSS{
+   
+    height: 10px;
+    width: 40%;
+    background-color:rgb(77, 75, 75, 0.8) ;
+
+}
+.container .section .right .ed{
+    height: 25px;
+    padding:25px 0  25px 50px ;
+    text-align: left;
+    font-size: 15px;
+    font-family:Georgia, serif;
+    background-color: rgb(77, 75, 75, 0.7);
+        color: rgba(209, 198, 198, 0.8);
+} 
+.container .section .right .school{
+    padding: 0 100px;
+    text-align: left;
+    color: rgb(77, 75, 75, 0.8);
+    line-height: 30px;
+    background-color: rgb(77, 75, 75, 0.2);
+}
+
+.container .section .right .school ul li ul ,li ,ul{
+    padding-left: 10px;
+
+}
+.container .section .right .extra {
+    height: 25px;
+    padding:25px 0  20px 50px ;
+    text-align: left;
+    font-size: 22px;
+    font-family:Georgia, serif;
+    background-color: rgb(77, 75, 75, 0.7);
+        color: rgba(209, 198, 198, 0.8);
+}
+.container .section .right .parti{
+    padding: 0 100px;
+    text-align: left;
+    color: rgb(77, 75, 75, 0.8);
+    line-height: 30px;
+    background-color: rgb(77, 75, 75, 0.2);
+    height: 420px;
+}
+
+
